@@ -21,7 +21,7 @@ const showWinner = (userwin , userchoice , compchoice) =>{
         userscore++;
         userscorepara.innerText = userscore;
         console.log('you win!');
-        msg.innerText= `You Win! Your ${userchoice} beats ${compchoice}`;
+        msg.innerText= `Chotu Win! Your ${userchoice} beats ${compchoice}`;
         msg.style.backgroundColor="green";
     }
     else
@@ -29,7 +29,7 @@ const showWinner = (userwin , userchoice , compchoice) =>{
         compscore++;
         compscorepara.innerText = compscore;
         console.log('you lose');
-         msg.innerText = `You Lose ! ${compchoice} beats your ${userchoice}`;
+         msg.innerText = `Chotu Lose ! ${compchoice} beats your ${userchoice}`;
          
          msg.style.backgroundColor="red";
     }
